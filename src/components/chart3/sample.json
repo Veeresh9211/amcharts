@@ -1,0 +1,305 @@
+{
+    "data": {
+        "AccountSummaries": [
+            {
+                "Account Name": "My Checking",
+                "Account Number": "9999",
+                "Average Balance": 3511.58,
+                "Bank Name": "Test Canadian Bank 2",
+                "Current Balance": 2208.52,
+                "Total Deposits 90": 0,
+                "Total Withdrawals 90": 0,
+                "id": "0"
+            },
+            {
+                "Account Name": "My Checking",
+                "Account Number": "0300",
+                "Average Balance": 272.82,
+                "Bank Name": "Test Canadian Bank 2",
+                "Current Balance": 181.09,
+                "Total Deposits 90": 1062.53,
+                "Total Withdrawals 90": 990.51,
+                "id": "1"
+            },
+            {
+                "Account Name": "My Checking",
+                "Account Number": "2000",
+                "Average Balance": 892.55,
+                "Bank Name": "Test Canadian Bank 2",
+                "Current Balance": 281.38,
+                "Total Deposits 90": 7084.19,
+                "Total Withdrawals 90": 6603.48,
+                "id": "2"
+            },
+            {
+                "Account Name": "My Saving",
+                "Account Number": "5678",
+                "Average Balance": 3148.33,
+                "Bank Name": "Test Canadian Bank 2",
+                "Current Balance": 2468.4,
+                "Total Deposits 90": 0,
+                "Total Withdrawals 90": 0,
+                "id": "3"
+            }
+        ],
+        "TotalBalances": [
+            [
+                5139.39
+            ],
+            [
+                7825.28
+            ],
+            [
+                8146.719999999999
+            ],
+            [
+                7593.99
+            ]
+        ]
+    },
+    "status": 200,
+    "statusText": "",
+    "headers": {
+        "content-length": "1313",
+        "content-type": "application/json"
+    },
+    "config": {
+        "url": "https://a287443a087f.ngrok.io/api/get_account_summaries",
+        "method": "get",
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Access-Control-Allow-Origin": "*"
+        },
+        "params": {
+            "parentGuid": "F5606873-321E-4750-91B5-18E934A7F758"
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+    },
+    "request": {}
+}
+
+
+
+{
+    "data": {
+        "MonthlyBalances": [
+            {
+                "balance0": null,
+                "balance1": 174.75,
+                "balance2": 238.57,
+                "balance3": null,
+                "date": "Jan 2021"
+            },
+            {
+                "balance0": null,
+                "balance1": 202.17,
+                "balance2": 421.52,
+                "balance3": null,
+                "date": "Feb 2021"
+            },
+            {
+                "balance0": 829.52,
+                "balance1": 172.23,
+                "balance2": 221.87,
+                "balance3": 359.42,
+                "date": "Mar 2021"
+            },
+            {
+                "balance0": 2208.52,
+                "balance1": 181.09,
+                "balance2": 281.38,
+                "balance3": 2468.4,
+                "date": "Apr 2021"
+            }
+        ],
+        "MonthlyExpenses": [
+            {
+                "balance0": null,
+                "balance1": -58.02,
+                "balance2": -386.86,
+                "balance3": null,
+                "date": "Jan 2021"
+            },
+            {
+                "balance0": null,
+                "balance1": -329.76,
+                "balance2": -2198.29,
+                "balance3": null,
+                "date": "Feb 2021"
+            },
+            {
+                "balance0": -3422.15,
+                "balance1": -404.74,
+                "balance2": -2698.35,
+                "balance3": -7870.04,
+                "date": "Mar 2021"
+            },
+            {
+                "balance0": -3333.2,
+                "balance1": -197.99,
+                "balance2": -1319.98,
+                "balance3": -2831.14,
+                "date": "Apr 2021"
+            }
+        ],
+        "MonthlyIncome": [
+            {
+                "balance0": null,
+                "balance1": 123.7,
+                "balance2": 824.76,
+                "balance3": null,
+                "date": "Jan 2021"
+            },
+            {
+                "balance0": null,
+                "balance1": 357.18,
+                "balance2": 2381.24,
+                "balance3": null,
+                "date": "Feb 2021"
+            },
+            {
+                "balance0": 500.01,
+                "balance1": 374.8,
+                "balance2": 2498.7,
+                "balance3": 4404.15,
+                "date": "Mar 2021"
+            },
+            {
+                "balance0": 4712.2,
+                "balance1": 206.85,
+                "balance2": 1379.49,
+                "balance3": 4940.12,
+                "date": "Apr 2021"
+            }
+        ]
+    },
+    "status": 200,
+    "statusText": "",
+    "headers": {
+        "content-length": "1841",
+        "content-type": "application/json"
+    },
+    "config": {
+        "url": "https://a287443a087f.ngrok.io/api/get_total_activity",
+        "method": "get",
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Access-Control-Allow-Origin": "*"
+        },
+        "params": {
+            "parentGuid": "F5606873-321E-4750-91B5-18E934A7F758"
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+    },
+    "request": {}
+}
+
+
+[
+    {
+        "Account Name": "My Checking",
+        "Account Number": "9999",
+        "Average Balance": 3511.58,
+        "Bank Name": "Test Canadian Bank 2",
+        "Current Balance": 2208.52,
+        "Total Deposits 90": 0,
+        "Total Withdrawals 90": 0,
+        "id": "0"
+    },
+    {
+        "Account Name": "My Checking",
+        "Account Number": "0300",
+        "Average Balance": 272.82,
+        "Bank Name": "Test Canadian Bank 2",
+        "Current Balance": 181.09,
+        "Total Deposits 90": 1062.53,
+        "Total Withdrawals 90": 990.51,
+        "id": "1"
+    },
+    {
+        "Account Name": "My Checking",
+        "Account Number": "2000",
+        "Average Balance": 892.55,
+        "Bank Name": "Test Canadian Bank 2",
+        "Current Balance": 281.38,
+        "Total Deposits 90": 7084.19,
+        "Total Withdrawals 90": 6603.48,
+        "id": "2"
+    },
+    {
+        "Account Name": "My Saving",
+        "Account Number": "5678",
+        "Average Balance": 3148.33,
+        "Bank Name": "Test Canadian Bank 2",
+        "Current Balance": 2468.4,
+        "Total Deposits 90": 0,
+        "Total Withdrawals 90": 0,
+        "id": "3"
+    }
+]
+
+{
+    "in": 123,
+    "ex": 323,
+    "date": "april"
+},
+{
+    "in": 123,
+    "ex": 323,
+    "date": "may"
+},
+ex = [
+    {
+        "balance0": -6755.35
+    },
+    {
+        "balance1": -990.51
+    },
+    {
+        "balance2": -6603.48
+    },
+    {
+        "balance3": -10701.18
+    },
+    {
+        "date": "Apr 2021Mar 2021Feb 2021Jan 20210"
+    }
+]
+
+in = [
+    {
+        "balance0": 5212.21
+    },
+    {
+        "balance1": 1062.53
+    },
+    {
+        "balance2": 7084.19
+    },
+    {
+        "balance3": 9344.27
+    },
+    {
+        "date": "Apr 2021Mar 2021Feb 2021Jan 20210"
+    }
+]
